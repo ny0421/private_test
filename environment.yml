@@ -8,8 +8,6 @@ dependencies:
   - matplotlib
   - numpy
   - pandas
-  - pathlib
-  - collections
   - torch
   - sklearn
   - wandb
