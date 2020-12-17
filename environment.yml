@@ -1,0 +1,21 @@
+# run: conda env create --file environment.yml
+name: test-env
+dependencies:
+- python>=3.6
+- pip
+- pip:
+  # works for regular pip packages、
+  - pytorch-lightning
+  - matplotlib
+  - numpy
+  - pandas
+  - pathlib
+  - collections
+  - torch
+  - sklearn
+  - wandb
+  - argparse
+  - scipy
+  - xgboost
+  - scikit-learn
+  - thinc
